@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body{
+    height:100vh;
+    background: #84a0ac !important;
+}
+
+.text-red-light{
+    color: #D49595;
+}
+
+.tex-dark-green {
+    color: #1a3a05;
+    font-weight: bold;
+}
+
+.text-green{
+    color: #2F676D;
+}
+
+.img-illustration{
+    height: 400px;
+}
+
+.img-logo{
+    height: 200px;
+    object-fit: cover;
+}
+
+.header-subtext{
+    font-size: 18px;
+    line-height: 2;
+    max-width: 500px;
+    font-weight: lighter;
+    margin: auto;
+}
+
+.bg-death{
+    background-color: #c55e5e !important;
+}
+
+.bg-recovered{
+    background-color: #60b16e !important;
+}
+
+.bg-confirmed{
+    background-color: #eec644 !important;
+}
+
+.report::before{
+    content: ' ';
+    height: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: #D49595;
+    width: 20px;
+    margin-right: 10px;
+    border: 2px solid #3D989B;
+}
+
+.report h3{
+    font-size: 26px;
+    display: inline-block;
+}
+
+.report p{
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 2;
+    color: #fff;
+    text-align: justify;
+}
+
+.footer{
+    font-size:14px;
+    font-weight: 500;
+    color: #2F676D;
+}
+
+@media (max-width:991px){
+    body{
+        height:auto;
+    }
+
+    .header-subtext{
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 16px;
+    }
+
+    .img-logo{
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .img-illustration{
+        height: 300px;
+    }
+}
+
+@media (min-width:580px) and (max-width:767px){
+    .header-subtext{
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 16px;
+    }
+
+    .img-logo{
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .img-illustration{
+        height: 300px;
+    }
+}
+
+@media (max-width:579px){
+    .header-subtext{
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 16px;
+    }
+
+    .img-logo{
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .img-illustration{
+        height: 300px;
+    }
+}
+
+
