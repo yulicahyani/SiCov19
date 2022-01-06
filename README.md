@@ -1,6 +1,6 @@
 # SiCov19
 
-Submission Belajar Fundamental Front-End Web Development (Dicoding)
+Belajar Fundamental Front-End Web Development - Dicoding
 
 **CARA INSTALASI**
 
